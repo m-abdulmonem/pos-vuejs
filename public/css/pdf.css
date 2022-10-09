@@ -1,0 +1,104 @@
+ body {
+      background: transparent !important;
+  }
+  
+  .invoice,
+  #app {
+      background: transparent !important;
+  }
+  
+  .info p:first-child {
+      font-size: 14px;
+      margin-bottom: 5px !important;
+  }
+  
+  .info p:nth-child(2) {
+      font-size: 13px;
+      margin-bottom: 5px !important;
+  }
+  
+  .info p:nth-child(3) {
+      font-size: 12px;
+      margin-bottom: 5px !important;
+  }
+  
+  .info p:last-child {
+      font-size: 12px;
+      margin-bottom: 5px !important;
+  }
+  
+  .invoice-info {
+      text-align: start;
+  }
+  
+  .invoice-info .col:first-child {
+      padding-right: 30px;
+  }
+  
+  .list {
+      padding: 0 30px;
+  }
+  
+  .invoice-info,
+  .list,
+  .total {
+      margin-top: 30px !important;
+  }
+  
+  .title {
+      margin-bottom: 50px;
+  }
+  
+  .page-header {
+      margin-bottom: 80px;
+  }
+  
+  body:after {
+      content: "";
+      background: url("../img/logo.png") center no-repeat;
+      opacity: 0.09;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      z-index: -1;
+      background-size: contain;
+  }
+  
+  
+  .wrapper {
+      font-size: 28px;
+      font-weight: bold;
+  }
+  
+  .row {
+      margin: 0 !important;
+  }
+  
+  .page-header {
+      background: url('../img/logo.png') no-repeat left top;
+      background-size: 105px;
+      margin-bottom: 30px;
+      border-bottom: 1px solid #0000002e;
+      background-position-y: 40px;
+      padding-top: 40px;
+  }
+  
+  .page-break {
+      page-break-before: always;
+  }
+  
+  .footer {
+      /*position: absolute;*/
+      /*bottom: -10%;*/
+      width: 100%;
+      border-top: 1px solid #000;
+  }
+  
+  @media print {
+      .footer {
+          position: fixed;
+          bottom: 0;
+      }
+  }
